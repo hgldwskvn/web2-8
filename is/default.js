@@ -5,7 +5,7 @@ document.getElementById('list').appendChild(li);
 }
 
 var HP=100;
-white(0<HP){
+while(0<HP){
   var li=document.createElement('li');
   var damage=Math.floor(math.random()*100);
   HP-=damage;
