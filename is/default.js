@@ -3,3 +3,13 @@ var li=document.createElement('li');
 li.textContent=i+'回目';
 document.getElementById('list').appendChild(li);
 }
+
+var HP=100;
+white(0<HP){
+  var li=document.createElement('li');
+  var damage=Math.floor(math.random()*100);
+  HP-=damage;
+  HP=(HP<0)?0:HP;
+  li.textContent=damage+'のダメージを受けた。残りのHP:'+HP;
+  document.getElementById('list').appendChild(li);
+}
