@@ -31,7 +31,7 @@ li.textContent=constellatio[i];
 document.getElementById('array').appendChild(li);
 }
 
-var player={name:'名無しのゴンべ',age:20,blood;'A'};
+var player={name:'名無しのゴンべ',age:20,blood:'A'};
 for(key in player){
 var li=document.createElement('li');
 li.textContent=key+': '+player[key];
